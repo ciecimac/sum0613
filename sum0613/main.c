@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
     int a,b,c;
     fscanf(fr,"%d%d",&a,&b);
     c=a+b;
-    printf("%d+%d=%d\n",a,b,c);
+    printf("结果：%d+%d=%d\n",a,b,c);
     fprintf(fw,"%d+%d=%d\n",a,b,c);
     return 0;
 }
